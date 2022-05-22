@@ -393,6 +393,9 @@
         <part id="tool_minieditor" x="160" y="128" w="16" h="16" />
         <part id="simple_color_border" x="16" y="32" w1="3" w2="6" w3="3" h1="3" h2="6" h3="3" />
         <part id="simple_color_selected" x="32" y="32" w1="3" w2="6" w3="3" h1="3" h2="6" h3="3" />
+        <part id="aseprite_face" x="0" y="272" w="28" h="30" />
+        <part id="aseprite_face_mouse" x="28" y="272" w="28" h="30" />
+        <part id="aseprite_face_pushed" x="56" y="272" w="28" h="30" />
     </parts>
     <styles>
         <style id="box" />
@@ -900,6 +903,11 @@
             <text color="listitem_normal_text" align="left middle" x="1" />
             <text color="listitem_selected_text" align="left middle" x="1" state="selected" />
             <text color="disabled" align="left middle" x="1" state="disabled" />
+        </style>
+        <style id="aseprite_face">
+            <icon part="aseprite_face" />
+            <icon part="aseprite_face_mouse" state="mouse" />
+            <icon part="aseprite_face_pushed" state="mouse selected" />
         </style>
     </styles>
 </theme>
